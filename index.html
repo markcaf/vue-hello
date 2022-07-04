@@ -17,6 +17,10 @@
                     <img :src="sourceImage" alt="">
                     <h1>{{ message }}</h1>
                     <input v-model="message" type="text" placeholder="Scrivi qui per cambiare il titolo">
+
+                    <button @click="updateImage" class="ms-2">Clicca e cambia immagine con una più grande</button>
+
+                    <button @click="backToSmallerImage" class="ms-2">Clicca e torna all'immagine piccola</button>
                 </div>
             </div>
         </div>
