@@ -4,6 +4,7 @@ const app = new Vue(
 
         data: {
             message: 'Hello World, scrivi e cambia messaggio',
+            sourceImage: 'https://picsum.photos/200',
         }
     }
 );
